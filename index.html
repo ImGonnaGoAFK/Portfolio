@@ -17,8 +17,8 @@
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
-                    <a href="#">Work</a>
-                    <a href="#">Contact Me</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact-me">Contact Me</a>
                     <a href="https://github.com/ImGonnaGoAFK">Github</a>
                 </li>
             </ul>
@@ -26,20 +26,48 @@
     </header>
     <main>
         <section class="content">
-            <div class ="box" id="about-me">
+            <div class="hero" id="about-me">
+                <div class="hero-red">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, magni autem. Quae earum, ullam error itaque pariatur est. Quaerat cupiditate, dicta doloribus voluptate voluptatem provident sit aspernatur nostrum minus excepturi, neque numquam in architecto harum rerum aliquam veniam molestiae. Eaque quo voluptatum recusandae quasi eos placeat non odit dolores ut?</p>
-            <div>
-                <img src="./assets/images/Menbati-Rammus_.webp" class="float-right"></img>
+                <p>I am 27 years old with a degree in Digital forensics and a masters in Cyber Security. I am currently working on learning full stack development to further my tech skillsets. I am interested in the the cybersecurity especially with how much data breaches have been occuring over the years. AI is a raising topic that has caught by attention over the years with how much impact it has in our society.
+                </p>
+                <a href="#contact-me" class="button">
+                    Contact Me
+                </a>
+                </div>
+            
+                <div class="hero-blue">
+                    <img src="./assets/images/kevinviet.PNG" alt="picture of Kevin" width="50%"></img>
             </div>
             </div>
             <div class ="box" id="work">
                 <h2>Work</h2>
-                <p>Completed projects or projects I am currently working on</p>
+                <section class="projects">
+                    <div class="work-column">
+                        <h3 class="box-header"><a href="https://imgonnagoafk.github.io/prework-study-guide/">Prework Study Guide</a></h3>
+                        <p>Website containing notes from what I was learning during my prework on the bootcamp</p>
+                    </div>
+                    <div class="work-column">
+                        <h3 class="box-header"><a href="https://imgonnagoafk.github.io/horiseon-webpage/">Horizeon Webpage</a></h3>
+                    </div>
+                    <div class="work-column">
+                        <h3 class="box-header"><a href="#">Coming Soon</a></h3>
+                    </div> 
+                </section>
             </div>
             <div class ="box" id="contact-me">
                 <h2>Contact Me</h2>
-                <p>You can reach me at ...</p>
+                <p>
+                    <label for="subject">Subject: </label>
+                    <input id="subject" type="text" placeholder="Reason for reaching out" />
+                </p>
+                <p>    
+                    <label for="message">Message: </label>
+                    <input id="message" type="text" placeholder="message"/>
+                </p>
+                <p>
+                    <button>Send Email</button>
+                </p>
             </div>
             <div class ="box" id="Resume">
                 <h2>Resume</h2>
