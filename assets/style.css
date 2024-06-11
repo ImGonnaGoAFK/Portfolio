@@ -160,6 +160,12 @@ h2 {
     padding: 10px;
     flex: 0 0 100px;
     margin: 20px;
+    #prework {
+        max-width: 500px;
+    }
+    img{
+        max-width: 300px;
+    }
 }
 
 .box-header :hover {
